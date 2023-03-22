@@ -11,4 +11,8 @@ class TestClass {
   func addTwoObject(left: Int, right: Int) -> Int {
     return left + right
   }
+  
+  func minusTwoObject(left: Int, right: Int) -> Int {
+    return left - right
+  }
 }

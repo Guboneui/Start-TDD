@@ -14,4 +14,10 @@ final class StartTDDTests: XCTestCase {
     let sum = testClass.addTwoObject(left: 5, right: 5)
     XCTAssertEqual(sum, 10)
   }
+  
+  func test_빼기_함수() {
+    let testClass = TestClass()
+    let minus = testClass.minusTwoObject(left: 5, right: 3)
+    XCTAssertEqual(2, minus)
+  }
 }
